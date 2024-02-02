@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wilianto</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tugas Akhir Membuat Website</h1>
+      <h2>academies dicoding belajar dasar pemograman web</h2>
+      <br /><br />
+      <nav>
+        <ul></ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#project">PROJECT</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </nav>
+    </header>
+    <main id="about" class="row">
+      <aside>
+        <h1>About Me</h1>
+        <h2>WILIANTO</h2>
+        <img
+          src="./img/past poto.jpg"
+          alt="profile"
+          class="img"
+          style="height: 300px"
+        />
+        <p>
+          Sebagai seorang lulusan baru di bidang Teknologi Informasi (TI), saya
+          memiliki latar belakang pendidikan yang kuat dan semangat untuk
+          berkontribusi dalam lingkungan kerja TI. Saya memiliki pengetahuan
+          dalam pengembangan perangkat lunak, dukungan pengguna, dan dasar-dasar
+          administrasi sistem. Saya siap belajar dan berkembang di dunia
+          profesional IT.
+        </p>
+        <p>Indramayu, 23 - 07 1998</p>
+        <p>Jl. Cipaganti Blok Y 23/24 RTR/RW 003/007 G ASRI</p>
+        <p>Email : wilianto2021@gmail.com</p>
+        <p>Github : github.com/wilianto11</p>
+        <p>Istagram : @willy_willyanto</p>
+      </aside>
+      <article>
+        <h1>Education</h1>
+        <h4>S1 Teknik Informatika, Universitas Pelita Bangsa</h4>
+        <h5>IPK : 3.7</h5>
+        <h4>
+          Teknik Komputer & Jaringan, Sekolah Menengah Kejuruan Negeri 1 Lelea
+        </h4>
+        <h5>NILAI AKHIR : 88.95</h5>
+        <img src="./img/edu.jpg" class="img" style="height: 400px" />
+        <br />
+        <h1>Skill Highlights</h1>
+        <h4>Soft Skill:</h4>
+        <ul>
+          <li>Manajemen Waktu</li>
+          <li>Pemecahan Masalah</li>
+          <li>Komunikasi yang baik</li>
+          <li>kerja tim</li>
+        </ul>
+        <h4>Hard Skill:</h4>
+        <ul>
+          <li>PHP</li>
+          <li>JAVASCRIPT</li>
+          <li>Database (SQL)</li>
+          <li>Hardware & Software</li>
+          <li>Administrasi Jaringan</li>
+          <li>Keamanan Komputer</li>
+        </ul>
+        <img src="./img/dicoding.jpg" class="img" style="height: 400px" />
+        <br />
+        <h1 id="project">Academic Project</h1>
+        <h4>Pengembangan Aplikasi Absensi Berbasis Web</h4>
+        <ul>
+          <li>
+            Merancang dan mengembangkan aplikasi absensi berbasis web untuk
+            kebutuhan internal perusahaan.
+          </li>
+          <li>
+            Mengumpulkan persyaratan dari departemen sumber daya manusia (SDM)
+            untuk memastikan aplikasi dapat memenuhi kebutuhan bisnis dan
+            kebijakan perusahaan.
+          </li>
+          <li>
+            Menggunakan teknologi terkini dan bahasa pemrograman seperti PHP,
+            Laravel, dan JavaScript untuk membangun antarmuka pengguna yang
+            responsif dan intuitif.
+          </li>
+          <li>
+            Mengintegrasikan aplikasi dengan database perusahaan untuk menyimpan
+            dan mengelola data kehadiran karyawan.
+          </li>
+          <li>
+            Menerapkan fitur-fitur keamanan, seperti otentikasi dua faktor,
+            untuk melindungi data sensitif karyawan.
+          </li>
+          <li>
+            Mengoptimalkan kinerja aplikasi untuk memastikan responsivitas yang
+            baik dan waktu muat yang cepat.
+          </li>
+          <li>
+            Melakukan uji keamanan secara berkala untuk mengidentifikasi dan
+            mengatasi potensi kerentanan keamanan.
+          </li>
+        </ul>
+        <img
+          src="./img/experience.jpg"
+          alt="experience"
+          class="img"
+          style="height: 400px"
+        />
+      </article>
+
+      <section class="form" id="contact">
+        <form action="#">
+          <h1>Contact</h1>
+          <label for="namadepan">Nama Depan</label>
+          <input type="text" id="fname" placeholder="Nama Depan" required />
+          <label for="namebel">Nama Belakang</label>
+          <input
+            type="text"
+            id="namebel"
+            placeholder="nama Belakang"
+            required
+          />
+
+          <label for="jeniskelamin">Jenis Kelamin</label>
+          <select id="jeniskelamin">
+            <option value="Laki-Laki">Laki-Laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select>
+          <label for="pesan">Pesan</label>
+          <textarea
+            id="pesan"
+            name="pesan"
+            placeholder="Tulis Pesan disini"
+            style="height: 200px"
+          ></textarea>
+
+          <input
+            type="submit"
+            value="Kirim"
+            onclick="alert('Pesan Anda terkirim')"
+          />
+        </form>
+      </section>
+    </main>
+    <footer>2024 Dicoding &copy; Wilianto</footer>
+  </body>
+</html>
